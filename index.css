@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #050510;
+  color: #e0e0ff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 85%;
+  max-width: 950px;
+  margin: 40px auto;
+  background: rgba(15, 15, 40, 0.85);
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 0 30px rgba(85, 0, 255, 0.4);
+  backdrop-filter: blur(12px);
+  transition: all 0.4s ease;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(100, 0, 255, 0.3);
+  padding-bottom: 20px;
+}
+
+.profile-photo img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #6b00ff;
+  transition: 0.4s;
+}
+
+.profile-photo img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #6b00ff;
+}
+
+.intro h1 {
+  color: #8f66ff;
+  margin: 0;
+  font-size: 2em;
+}
+
+.intro h2 {
+  color: #b9aaff;
+  margin-top: 5px;
+}
+
+.intro p {
+  font-size: 14px;
+  color: #a5a5ff;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  background: linear-gradient(45deg, #6b00ff, #00d9ff);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+button:hover {
+  box-shadow: 0 0 20px #00d9ff;
+  transform: scale(1.05);
+}
+
+h3 {
+  color: #7a5cff;
+  border-left: 4px solid #8b00ff;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-top: 30px;
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list span {
+  background: linear-gradient(45deg, #5b00ff, #00d9ff);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+  transition: 0.3s;
+}
+
+.skills-list span:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #00d9ff;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  border-top: 2px solid rgba(100, 0, 255, 0.3);
+  padding-top: 15px;
+}
+
+a {
+  color: #00d9ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 10px #00d9ff;
+}
